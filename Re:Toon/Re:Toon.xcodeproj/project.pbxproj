@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10DE63BB288592E400E93860 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE63BA288592E400E93860 /* BannerCell.swift */; };
 		10F98B5B2881AF600030D1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F98B5A2881AF600030D1EE /* AppDelegate.swift */; };
 		10F98B5D2881AF600030D1EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F98B5C2881AF600030D1EE /* SceneDelegate.swift */; };
 		10F98B5F2881AF600030D1EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F98B5E2881AF600030D1EE /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10DE63BA288592E400E93860 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
 		10F98B572881AF600030D1EE /* Re:Toon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Re:Toon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F98B5A2881AF600030D1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F98B5C2881AF600030D1EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				10F98B5C2881AF600030D1EE /* SceneDelegate.swift */,
 				10F98B5E2881AF600030D1EE /* ViewController.swift */,
 				10F98B602881AF600030D1EE /* Main.storyboard */,
+				10DE63BA288592E400E93860 /* BannerCell.swift */,
 				10F98B662881AF630030D1EE /* Assets.xcassets */,
 				10F98B682881AF630030D1EE /* LaunchScreen.storyboard */,
 				10F98B6B2881AF630030D1EE /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F98B5F2881AF600030D1EE /* ViewController.swift in Sources */,
+				10DE63BB288592E400E93860 /* BannerCell.swift in Sources */,
 				10F98B5B2881AF600030D1EE /* AppDelegate.swift in Sources */,
 				10F98B652881AF600030D1EE /* Re_Toon.xcdatamodeld in Sources */,
 				10F98B5D2881AF600030D1EE /* SceneDelegate.swift in Sources */,
