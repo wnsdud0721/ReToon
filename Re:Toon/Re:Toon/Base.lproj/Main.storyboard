@@ -98,6 +98,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="FLZ-xL-fxY" secondAttribute="trailing" constant="10" id="vvn-Kl-rJZ"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="imgView" destination="FLZ-xL-fxY" id="Ok0-pJ-SzM"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -110,6 +113,9 @@
                             <constraint firstItem="hEu-FQ-y6M" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t1n-zK-iMR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bannerCollectionView" destination="hEu-FQ-y6M" id="nHI-rB-Zj4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

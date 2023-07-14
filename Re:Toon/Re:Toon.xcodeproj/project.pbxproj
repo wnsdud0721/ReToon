@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105ED9442885C75A00E7FFFF /* bannerimg4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 105ED9432885C75A00E7FFFF /* bannerimg4.jpeg */; };
+		105ED9482885C77100E7FFFF /* bannerimg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 105ED9452885C77100E7FFFF /* bannerimg2.png */; };
+		105ED9492885C77100E7FFFF /* bannerimg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 105ED9462885C77100E7FFFF /* bannerimg3.png */; };
+		105ED94A2885C77100E7FFFF /* bannerimg1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 105ED9472885C77100E7FFFF /* bannerimg1.jpeg */; };
 		10DE63BB288592E400E93860 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE63BA288592E400E93860 /* BannerCell.swift */; };
 		10F98B5B2881AF600030D1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F98B5A2881AF600030D1EE /* AppDelegate.swift */; };
 		10F98B5D2881AF600030D1EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F98B5C2881AF600030D1EE /* SceneDelegate.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105ED9432885C75A00E7FFFF /* bannerimg4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bannerimg4.jpeg; sourceTree = "<group>"; };
+		105ED9452885C77100E7FFFF /* bannerimg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerimg2.png; sourceTree = "<group>"; };
+		105ED9462885C77100E7FFFF /* bannerimg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerimg3.png; sourceTree = "<group>"; };
+		105ED9472885C77100E7FFFF /* bannerimg1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bannerimg1.jpeg; sourceTree = "<group>"; };
 		10DE63BA288592E400E93860 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
 		10F98B572881AF600030D1EE /* Re:Toon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Re:Toon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F98B5A2881AF600030D1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		105ED9422885C5D600E7FFFF /* bannerImage */ = {
+			isa = PBXGroup;
+			children = (
+				105ED9472885C77100E7FFFF /* bannerimg1.jpeg */,
+				105ED9452885C77100E7FFFF /* bannerimg2.png */,
+				105ED9462885C77100E7FFFF /* bannerimg3.png */,
+				105ED9432885C75A00E7FFFF /* bannerimg4.jpeg */,
+			);
+			path = bannerImage;
+			sourceTree = "<group>";
+		};
 		10F98B4E2881AF600030D1EE = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +122,7 @@
 		10F98B592881AF600030D1EE /* Re:Toon */ = {
 			isa = PBXGroup;
 			children = (
+				105ED9422885C5D600E7FFFF /* bannerImage */,
 				10F98B5A2881AF600030D1EE /* AppDelegate.swift */,
 				10F98B5C2881AF600030D1EE /* SceneDelegate.swift */,
 				10F98B5E2881AF600030D1EE /* ViewController.swift */,
@@ -237,9 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105ED9482885C77100E7FFFF /* bannerimg2.png in Resources */,
 				10F98B6A2881AF630030D1EE /* LaunchScreen.storyboard in Resources */,
 				10F98B672881AF630030D1EE /* Assets.xcassets in Resources */,
+				105ED9492885C77100E7FFFF /* bannerimg3.png in Resources */,
+				105ED9442885C75A00E7FFFF /* bannerimg4.jpeg in Resources */,
 				10F98B622881AF600030D1EE /* Main.storyboard in Resources */,
+				105ED94A2885C77100E7FFFF /* bannerimg1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
